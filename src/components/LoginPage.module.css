@@ -1,0 +1,76 @@
+.login_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #232323;
+  }
+  
+  .left_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #232323;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .title span {
+    color: #f05454;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }  
+  
+  .right_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+    color: #adadad;
+  }
+  
+  .GoogleLogin {
+    margin-top: 2rem;
+  }
+  
+  .GoogleLogin button {
+    background-color: #fff;
+    color: #232323;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .GoogleLogin button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  img{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  }

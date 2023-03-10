@@ -1,0 +1,118 @@
+:root {
+    /* Define color variables for dark theme */
+    --primary-color: #1b1d21;
+    --secondary-color: #3e424b;
+    --text-color: #dcdcdc;
+  }
+  
+  .dashboard {
+    background-color: var(--primary-color);
+    min-height: 100vh;
+    color: var(--text-color);
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+.dashboard_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-height: 40vh;
+    margin-left: 20px;
+  }
+  
+  .activity:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .activity li {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  
+  .goals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    margin-bottom: 20px;
+  }
+  
+  .goals:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+  .goals li {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+  
+  .activity img,
+  .goals img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+  }
+
+  
+  .subtitle {
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .subtitles {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  /* Apply secondary color to odd list items */
+  .item:nth-child(odd) {
+    color: var(--secondary-color);
+  }
+  
+  .logout {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
